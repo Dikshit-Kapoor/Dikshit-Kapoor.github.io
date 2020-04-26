@@ -27,7 +27,7 @@ body{
   width: 35vw;
 }
 .menu:hover ~ .container {
-  transform: perspective(80vw) rotateY(10deg) translateX(35vw) scaleY(1.2);
+  transform: perspective(90vw) rotateY(10deg) translateX(30vw) scaleY(1.2);
 }
 .menu:hover nav {
   left: 20%;
@@ -47,7 +47,7 @@ body{
 
 nav {
   position: absolute;
-  margin-top: 25%;
+  margin-top: 30%;
   left: -1000px;
   transition: 1s;
 }
