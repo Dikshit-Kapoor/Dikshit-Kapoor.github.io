@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body{
+  margin: 0px;
+  padding: 0px;
+	display: flex;
+  justify-content: center;
+	align-items: center;
+  background-color: #f0c5d3;
+  font-family: 'Poppins',sans-serif;
+  min-height: 100vh;
+}
+.container{
+	display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+	
+}
+.container .card{
+  position: relative;
+  width: 380px;
+  height: 290px;
+  padding: 40px;
+  margin: 20px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,.1);
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+}
+.container .card:before{
+  content: '';
+  width: 50%;
+  height: 100%;
+  position:absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255,255,255,.2);
+  z-index: 2;
+  pointer-events: none;
+}
+.container.card.icon{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  background:#000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 80%;
+  font-weight: 700;
+  font-size: 40px;
+  transition: 1s;
+}
+.container .card:nth-child(1).icon{
+  box-shadow: 0 0 0 0 #e91e63;
+  background: #e91e63;
+}
+.container .card:nth-child(1):hover .icon{
+  box-shadow: 0 0 0 400px #e91e63;
+}
+.container .card:nth-child(2).icon{
+  box-shadow: 0 0 0 0 #23e629;
+  background: #e91e63;
+}
+.container .card:nth-child(2):hover .icon{
+  box-shadow: 0 0 0 400px #23e629;
+}
+.container .card:nth-child(3).icon{
+  box-shadow: 0 0 0 0 #9d0acf;
+  background: #e91e63;
+}
+.container .card:nth-child(3):hover .icon{
+  box-shadow: 0 0 0 400px #9d0acf;
+}
+.container .card:nth-child(4).icon{
+  box-shadow: 0 0 0 0 #f048b5;
+  background: #e91e63;
+}
+.container .card:nth-child(4):hover .icon{
+  box-shadow: 0 0 0 400px #f048b5;
+}
+.container .card:nth-child(5).icon{
+  box-shadow: 0 0 0 0 #e66012;
+  background: #e91e63;
+}
+.container .card:nth-child(5):hover .icon{
+  box-shadow: 0 0 0 400px #e66012;
+}
+.container .card .content{
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+.container .card:hover .content{
+  color:#fff;
+}
+.container .card .content h3{
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 0;
+  color:#e3076e;
+
+}
+.container .card .content p{
+  margin: 0;
+  color: #38041d;
+  padding: 0;
+}
+a{
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+  margin-top: 20px;
+  box-shadow: 0 8px 10px #f0c5d3;
+}
