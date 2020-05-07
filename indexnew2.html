@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="indexnew2.css">
+</head>
+<body>
+	<div class="box">
+  Hi! I'm Dikshit kapoor.I am an enthusiastic software engineer and front-end developer, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines. 
+  <br>
+  In my spare time, I enjoy meeting up with my friends and family.Due to my enduring passion for engineering, I enjoy building upon my knowledge of various computer programs that I can utilise to further my career in the industry. 
+</div>
+<div class="circle"></div>
+<div class="triangle-up"></div>
+<div class="pentagon"></div>
+<script type="text/javascript">
+	let circle = document.querySelector(".circle")
+let triangle = document.querySelector(".triangle-up")
+let pentagon = document.querySelector(".pentagon")
+
+window.onmousemove = (e) => {
+  console.log(e.clientX)
+  circle.style.transform = "scale(" + (e.clientX*0.001) + ")"
+  triangle.style.transform = "rotate(" + (-1*e.clientX*0.1) + "deg)"
+  pentagon.style.transform = "rotate(" + (e.clientX*0.1) + "deg)"+ "scale(" + (e.clientX*0.005) + ")"
+}
+</script>
+
+</body>
+</html>
