@@ -52,7 +52,7 @@ nav {
   transition: 1s;
 }
 nav ul {
-  color: white;
+  color: #eb3d8e;
   text-transform: uppercase;
   list-style-type: none;
 }
@@ -62,9 +62,13 @@ nav li {
 }
 nav a {
   font-size: 30px;
+display: inline-block;
   text-decoration: none;
-  color: white;
+  color: #f078b0;
   font-weight: 600;
+border-radius: 3px solid;
+  box-shadow: 0 5px 7px #eb5f2d;	
+	
 }
 nav a:hover {
   color: #eee;
