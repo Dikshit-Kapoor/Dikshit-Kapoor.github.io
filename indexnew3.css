@@ -1,0 +1,29 @@
+body{
+	background-color: #f9d9fa;
+}
+ h1{
+ 	text-align: center;
+    color: #6b0950;
+
+  }
+#portfolio .grid, #certification .grid{
+	padding:0;
+	max-width:90%;
+	list-style:none; 
+	margin-top:20px;
+}
+#portfolio .grid li, #certification .grid li{
+	margin:20px;
+  max-width:400px;
+  display: inline-block;
+  }
+@media(min-width:1023px){
+#portfolio .grid li, #certification .grid li{
+    max-width:320px
+  }
+    }
+#portfolio img, #certification img{
+    height: 240px;
+	max-width:100%;
+	display:inline-flex;
+}
