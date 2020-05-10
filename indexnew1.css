@@ -2,7 +2,7 @@
 h1 {
   font-size: 4em;
   text-transform: uppercase;
-  color: #ae1fcf;
+  color: #109159;
   margin: 0.5em;
   text-align: center;
   font-family: 'Teko', sans-serif;
@@ -31,7 +31,7 @@ h1::after {
 }
 body{
   font-family: Helvetica, Arial, sans-serif;
-  background:#efd7f5; 
+  background:#fced88; 
 }
 .container{
   width: 50%;
