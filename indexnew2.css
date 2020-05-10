@@ -8,8 +8,8 @@
 
 body {
   font-family: Poppins, sans-serif;
-  color: #fff;
-  background-color: #E0E5EC;
+  color: #f8fa84;
+  background-color: #f5f256;
 }
 
 .box {
@@ -19,7 +19,7 @@ body {
   transform: translate(-50%, -50%);
   font-size: 1.5rem;
   font-weight: bold;
-  color: #fc56cd;
+  color: #209e69;
   z-index: 1000;
 }
 
@@ -38,7 +38,7 @@ body {
       height: 0;
       border-left: 50px solid transparent;
       border-right: 50px solid transparent;
-      border-bottom: 100px solid #69A297;
+      border-bottom: 100px solid #eb5523;
       position: absolute;
       right: 20%;
       bottom: 10%;
